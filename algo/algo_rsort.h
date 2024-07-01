@@ -29,7 +29,7 @@ namespace rsort {
 /*
    rsort::sort(T *a,T *o,unsigned int n) 对 a 之后的 n 个元素进行排序，o 为对初值无要求，至少有 n 个空间的辅助数组。
    rsort::sort(T *a,unsigned n) 对 a 之后的 n 个元素进行排序。
-   rsort::sort(T *s,T *e) 对区间 s~e 排序，左开右闭。
+   rsort::sort(T *s,T *e) 对区间 s~e 排序，左闭右开。
    rsort::sort(vector<T>) 对 vector 进行从小到大排序。
    仅对 unsigned 类型排序，因此负数会大于所有的正数，所有排序之后都是从小到大。 
    复杂性均为 O(n)。
